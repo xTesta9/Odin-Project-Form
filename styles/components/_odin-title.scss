@@ -1,0 +1,22 @@
+.odin-title
+{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .odin-title-logo
+    {
+        filter: drop-shadow(1px 1px 2px $color-black);
+        width: 40px;
+    }
+
+    span
+    {
+        font-size: $font-size-title;
+        text-shadow: 1px 1px 2px;
+        font-family: $font-light;
+    }
+}

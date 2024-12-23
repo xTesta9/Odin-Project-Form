@@ -1,0 +1,9 @@
+.form-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 0 0 $color-black;
+    position: relative;
+    background-color: $color-white;
+}

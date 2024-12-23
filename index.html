@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/odin.svg"/>
+    <title>Form - xTesta9</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="odin-title">
+                <img src="assets/odin.svg" alt="Odin Logo" class="odin-title-logo">
+                <span>THE ODIN PROJECT</span>
+            </div>
+            <form action="#" id="form">
+                <div class="title-form">
+                    <h1>Create an Account</h1>
+                    <p>Let's get started on your Web Development Journey</p>
+                </div>
+                <div class="input-contents">
+                    <div class="left-container">
+                        <div class="user-input">
+                            <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                            <div class="error" id="error1">
+                                <div class="error-message">
+                                    <img src="assets/error.svg" alt="Error">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-input">
+                            <input type="email" name="email" id="email" placeholder="Email">
+                            <div class="error" id="error3">
+                                <div class="error-message">
+                                    <img src="assets/error.svg" alt="Error">
+                                    <span>Email format: username@email.com</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-input">
+                            <input type="password" name="password" id="password" placeholder="Password">
+                            <div class="error" id="error5">
+                                <div class="error-message">
+                                    <img src="assets/error.svg" alt="Error">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-container">
+                        <div class="user-input">
+                            <input type="text" name="lastName" id="lastName" placeholder="Last Name (Optional)">
+                            <div class="error" id="error2">
+                                <div class="error-message">
+                                    <img src="assets/error.svg" alt="Error">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-input">
+                            <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Phone Number">
+                            <div class="error" id="error4">
+                                <div class="error-message">
+                                    <img src="assets/error.svg" alt="Error">
+                                    <span>Pattern Must be (xxx)-xxx-xxx</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-input">
+                            <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password">
+                            <div class="error" id="error6">
+                                <div class="error-message">
+                                    <img src="assets/error.svg" alt="Error">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#">
+                        <img src="assets/facebook.svg" alt="Facebook" class="facebook">
+                    </a>
+                    <a href="#">
+                        <img src="assets/google.svg" alt="Google">
+                    </a>
+                    <a href="#">
+                        <img src="assets/instagram.svg" alt="Instagram">
+                    </a>
+                </div>
+                <div class="form-footer">
+                    <button type="submit">
+                        <span>Create Account</span>
+                    </button>
+                    <div class="login-link">
+                        <span>Already have an account? <a href="#" class="hover-link">Login</a></span>
+                    </div>
+                </div>
+            </form>
+            <div class="creator-info">
+                <div class="creator-credits">
+                    <span>
+                        Created by <a href="https://github.com/xTesta9" target="_blank" rel="noopener">xTesta9</a>
+                    </span>
+                    <a href="https://github.com/xTesta9" target="_blank" rel="noopener">
+                        <img src="assets/github.svg" alt="GitHub" width="25">
+                    </a>
+                </div>
+                <div class="odin-info">
+                    <span>
+                        This page is part of a project for <em>The Odin Project</em>. To enroll and access resources, please visit <a href="https://www.theodinproject.com/dashboard" target="_blank" rel="noopener" class="hover-link">theodinproject.com</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="images/Odin-Logo.png" alt="Odin Logo" class="odin-logo">
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

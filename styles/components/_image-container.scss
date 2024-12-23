@@ -1,0 +1,11 @@
+.image-container
+{
+    background-color: $color-background;
+    display: flex;
+    @include flex-center;
+
+    .odin-logo
+    {
+        filter: drop-shadow(1px 1px 7px $color-black);
+    }
+}

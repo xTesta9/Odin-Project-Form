@@ -1,0 +1,30 @@
+.social-links
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    a
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid $color-black;
+        width: 45px;
+        height: 45px;
+        box-shadow: 5px 5px 0 0 $color-black;
+        @include transition(0.3s, ease);
+
+        img
+        {
+            width: 35px;
+            height: 35px;
+        }
+
+        &:hover
+        {
+            transform: translate(-4px, -4px);
+            box-shadow: 9px 9px 0 0 $color-black;
+        }
+    }
+}

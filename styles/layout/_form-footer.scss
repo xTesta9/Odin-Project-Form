@@ -1,0 +1,57 @@
+.form-footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+    button
+    {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 4rem;
+        border: 2px solid $color-black;
+        box-shadow: 5px 5px 0 0 $color-black;
+        overflow: hidden;
+        background-color: transparent;
+        font: normal 600 1.5rem/1 Verdana, Geneva, Tahoma, sans-serif;
+        cursor: pointer;
+        z-index: 1;
+        @include transition(400ms, ease);
+
+        &::before
+        {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 0;
+            height: 500rem;
+            top: 50%;
+            left: 50%;
+            background-color: $color-button-hover;
+            transform: translate(-50%, -50%) rotate(45deg);
+            @include transition(500ms, ease);
+            z-index: -1;
+        }
+
+        &:hover::before
+        {
+            width: 100rem;
+        }
+
+        &:hover 
+        {
+            color: $color-white;
+            transform: translate(-4px, -4px);
+            box-shadow: 9px 9px 0 0 $color-black;
+        }
+    }
+
+    .login-link
+    {
+        display: block;
+        margin-top: 10px;
+    }
+}
